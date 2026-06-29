@@ -195,7 +195,7 @@ const fishProducts = [
       en: "Beautiful fins spread 180°, vibrant solid and multicolor varieties.",
       zh: "鱼鳍优美，可展开180°，颜色鲜艳，有单色和多色可选。",
     },
-    img: "/image/image3.png",
+    img: "/image/image3.webp",
     tag: { th: "ขายดี", en: "Best Seller", zh: "热销" },
     tagColor: "bg-cyan-500",
   },
@@ -211,7 +211,7 @@ const fishProducts = [
       en: "Spiked fins like a crown, bold and easy to keep — perfect for beginners.",
       zh: "锯齿状鱼鳍形如皇冠，个性突出，易于饲养，适合新手。",
     },
-    img: "/image/image5.png",
+    img: "/image/image5.webp",
     tag: { th: "ขายดี", en: "Best Seller", zh: "热销" },
     tagColor: "bg-cyan-500",
   },
@@ -227,7 +227,7 @@ const fishProducts = [
       en: "Rare, fierce, and stunning — ideal for collectors and competitions.",
       zh: "稀有品种，威猛美观，适合收藏家和比赛用途。",
     },
-    img: "/image/image6.png",
+    img: "/image/image6.webp",
     tag: { th: "ขายดี", en: "Best Seller", zh: "热销" },
     tagColor: "bg-cyan-500",
   },
@@ -243,7 +243,7 @@ const fishProducts = [
       en: "Tough, agile, short fins — popular for competitions and active keeping.",
       zh: "坚韧灵活，短鳍，深受比赛爱好者和健康养殖者欢迎。",
     },
-    img: "/image/image7.png",
+    img: "/image/image7.webp",
    tag: { th: "ขายดี", en: "Best Seller", zh: "热销" },
     tagColor: "bg-cyan-500",
   },
@@ -259,7 +259,7 @@ const fishProducts = [
       en: "Rare wild-type betta with an elegant guitar-shaped tail and shimmering metallic scales.",
       zh: "稀有野生斗鱼，拥有独特吉他尾和闪耀金属鳞片。",
     },
-    img: "/image/image12.png",
+    img: "/image/image12.webp",
     tag: { th: "ขายดี", en: "Best Seller", zh: "热销" },
     tagColor: "bg-cyan-500",
   },
@@ -275,7 +275,7 @@ const fishProducts = [
       en: "Brilliant golden body with oversized pectoral fins, graceful and eye-catching.",
       zh: "金黄色鱼身，超大耳鳍，优雅夺目。",
     },
-    img: "/image/image13.png",
+    img: "/image/image13.webp",
     tag: { th: "ขายดี", en: "Best Seller", zh: "热销" },
     tagColor: "bg-cyan-500",
   },
@@ -291,7 +291,7 @@ const fishProducts = [
       en: "Deep red coloration with a balanced form, calm yet powerful appearance.",
       zh: "深红色体色，体态均衡，沉稳而充满力量。",
     },
-    img: "/image/image14.png",
+    img: "/image/image14.webp",
     tag: { th: "ขายดี", en: "Best Seller", zh: "热销" },
     tagColor: "bg-cyan-500",
   },
@@ -307,7 +307,7 @@ const fishProducts = [
       en: "Snow-white body with vivid red fins, a timeless and premium Dragon variety.",
       zh: "雪白鱼身配鲜红鱼鳍，经典高端红龙斗鱼。",
     },
-    img: "/image/image15.png",
+    img: "/image/image15.webp",
    tag: { th: "ขายดี", en: "Best Seller", zh: "热销" },
     tagColor: "bg-cyan-500",
   },
@@ -326,7 +326,7 @@ const foodProducts  = [
       en: "Premium fresh bloodworms, 15g (1 tbsp) per pack. Betta's favorite food — boosts growth and color vibrancy.",
       zh: "优质新鲜红虫，每包15克（1汤匙）。斗鱼最爱的食物，促进生长、使体色更鲜艳。",
     },
-    img: "/image/image9.png ",
+    img: "/image/image9.webp ",
     tag: { th: "ขายดี", en: "Best Seller", zh: "热销" },
     tagColor: "bg-cyan-500",
   },
@@ -585,7 +585,6 @@ export default function App() {
       <nav className="sticky top-0 z-40 border-b border-border backdrop-blur-md bg-background/80">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            
             <span className="text-lg font-bold tracking-wide text-foreground" style={{ fontFamily: "'Chakra Petch', sans-serif" }}>
               Phapong<span className="text-primary">BettaFarm</span>
             </span>
@@ -649,7 +648,7 @@ export default function App() {
             <div className="relative">
               <div className="absolute -inset-4 rounded-3xl opacity-30" style={{ background: "radial-gradient(circle, #00c8f0 0%, transparent 70%)" }} />
               <div className="relative bg-card border border-border rounded-3xl overflow-hidden">
-                <img src="/image/image3.png" alt="ปลากัดสวยงาม" className="w-full h-72 object-cover object-center" />
+                <img src="/image/image3.webp" alt="ปลากัดสวยงาม" className="w-full h-72 object-cover object-center" />
                 <div className="p-5">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-sm font-semibold text-foreground">
@@ -679,9 +678,9 @@ export default function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative" data-aos="fade-right">
               <div className="grid grid-cols-2 gap-3">
-                <img src="/image/image16.png" className="rounded-2xl w-full h-72 object-cover col-span-2" alt="ฟาร์มปลากัด" />
-                <img src="/image/image11.png" className="rounded-2xl w-full h-40 object-cover" alt="ปลากัด" />
-                <img src="/image/image4.png" className="rounded-2xl w-full h-40 object-cover" alt="ปลากัด" />
+                <img src="/image/image16.webp" className="rounded-2xl w-full h-72 object-cover col-span-2" alt="ฟาร์มปลากัด" />
+                <img src="/image/image11.webp" className="rounded-2xl w-full h-40 object-cover" alt="ปลากัด" />
+                <img src="/image/image4.webp" className="rounded-2xl w-full h-40 object-cover" alt="ปลากัด" />
               </div>
             </div>
             <div data-aos="fade-left" data-aos-delay="100">
@@ -821,7 +820,7 @@ export default function App() {
               </a>
             </div>
             <div className="relative" data-aos="fade-left" data-aos-delay="150">
-              <img src="/image/image10.png" alt="wholesale betta" className="rounded-2xl w-full h-80 md:h-auto object-cover" />
+              <img src="/image/image10.webp" alt="wholesale betta" className="rounded-2xl w-full h-80 md:h-auto object-cover" />
             </div>
           </div>
         </div>
